@@ -1,0 +1,37 @@
+{
+  "name": "treryo",
+  "version": "1.0.0",
+  "description": "trello-like app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch-content-base --open-page index.html",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okaryo/Treryo.git"
+  },
+  "author": "okaryo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okaryo/Treryo/issues"
+  },
+  "homepage": "https://github.com/okaryo/Treryo#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/redux": "^3.6.0",
+    "css-loader": "^4.2.1",
+    "mini-css-extract-plugin": "^0.10.0",
+    "ts-loader": "^8.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "redux": "^4.0.5"
+  }
+}
