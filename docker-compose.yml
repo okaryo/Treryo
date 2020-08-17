@@ -6,13 +6,7 @@ services:
       context: ./
       dockerfile: ./docker/node/Dockerfile
     volumes:
-      - ./node_modules:/var/www/node_modules
-      - ./src:/var/www/src
-      - ./index.html:/var/www/index.html
-      - ./package.json:/var/www/package.json
-      - ./package-lock.json:/var/www/package-lock.json
-      - ./tsconfig.json:/var/www/tsconfig.json
-      - ./webpack.config.js:/var/www/webpack.config.js
+      - .:/var/www
     ports:
       - "3000:3000"
     command: >
