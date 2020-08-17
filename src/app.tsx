@@ -1,8 +1,15 @@
 import * as React from 'react'
 
+import styled from 'styled-components'
+
+const Header = styled.div`
+  font-size: 16px;
+  color: red;
+`
+
 const App = () => {
   return (
-    <div>hello treryo</div>
+    <Header>hello treryo</Header>
   )
 }
 
